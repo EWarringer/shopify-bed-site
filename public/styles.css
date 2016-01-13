@@ -1,0 +1,35 @@
+body {
+  margin-top:60px;
+}
+
+.menuBar {
+  width:100%;
+  height:50px;
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.logo {
+  float:left;
+  width: 140px;
+  margin-left: 15px;
+}
+
+.nav {
+  float:right;
+  margin-right:10px;
+}
+
+.nav ul li {
+  list-style:none;
+  float:left;
+}
+
+.home-page {
+  background: url(http://i.imgur.com/GhOHiCu.jpg) no-repeat top left;
+  width: 100%;
+  padding-bottom: 500px;
+  margin-top: 0;
+}
