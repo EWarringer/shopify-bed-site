@@ -1,41 +1,105 @@
 body {
-  margin: 60px 0 0 0;
+  margin: 0;
 }
 
 .menuBar {
-  width:100%;
-  height:50px;
-  display:block;
-  position:absolute;
-  top:0;
-  left:0;
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: white;
+  top: 0;
+  left: 0;
+  position: fixed;
+  box-shadow: 0px 2px 100px #000000;
+  z-index:2;
 }
 
 .logo {
   float:left;
-  width: 140px;
+  width: 180px;
   margin-left: 15px;
   padding-top: 5px;
 }
 
-.nav {
-  float:right;
-  margin-right:10px;
+.left-bar {
+  float: left;
+  margin-top: 27px;
+}
+
+.right-bar {
+  float: right;
+  margin-right: 30px;
+  margin-top: 27px;
+}
+
+.cart {
+  width: 25px;
+  margin-left: 10px;
+  padding: 0px 0px 0px 15px;
 }
 
 .nav ul li {
-  list-style:none;
-  float:left;
-  padding-right: 10px;
+  list-style: none;
+  float: left;
   padding-top: 5px;
 }
 
 .nav ul li a {
   text-decoration: none;
-  color: auto;
+  color: #666666;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+.separator {
+  float:left;
+  color: #666666;
+  font-size: 18pt;
+  margin: 0;
+  padding: 3px 10px 0px 10px;
 }
 
 .home-background {
   max-width: 100%;
+  margin-top: 80px;
+}
 
+h2 {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: red;
+  font-weight: bolder;
+}
+
+.p-wrap {
+  text-align: center;
+  font-family: Arial;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 100px;
+  font-size:14pt;
+  color: #666666;
+}
+
+h3 {
+  text-align: center;
+  font-family: Arial;
+  margin-bottom: 50px;
+  color: blue;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.paragraph {
+  margin-bottom: 30px;
 }
